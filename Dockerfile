@@ -8,6 +8,6 @@ RUN  apt-get update && \
      rm -rf /var/cache/apt/* /var/lib/apt/lists/* && \
      pip3 install numpy && \
      pip3 install tensorflow-gpu==1.11.0 && \
-     rm -rf ~/.cache/pip && \
+     rm -rf ~/.cache/pip && 
 
 ENV  LC_ALL=C
